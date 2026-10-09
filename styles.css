@@ -1,2 +1,52 @@
 
 /* Your CSS Code here. */
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 20px;
+}
+
+.container {
+max-width: 600px;
+margin: 30px auto;
+padding: 20px;
+background-color: white;
+border-radius: 8px;
+}
+
+h1 {
+text-align: center;
+color: #333;
+}
+
+ol {
+padding-left: 40px;
+}
+
+li {
+padding: 12px 5px;
+border-bottom: 1px solid #ddd;
+overflow-wrap: anywhere;
+}
+
+.buttons {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+button {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+background-color: #007bff;
+color: white;
+cursor: pointer;
+font-size: 16px;
+}
+
+button:disabled {
+background-color: #aaa;
+cursor: not-allowed;
+}
